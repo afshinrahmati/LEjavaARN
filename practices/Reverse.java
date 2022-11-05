@@ -10,7 +10,7 @@ class Reverse {
     String x = reverse(secondNum);
     String messgae = "";
 if(Integer.parseInt(y) > Integer.parseInt(x)){
-    messgae = firstNum + " > "+  secondNum;
+    messgae = secondNum + " < "+  firstNum;
 
 }else if(Integer.parseInt(y) < Integer.parseInt(x)){
         messgae = firstNum + " < "+ secondNum;
