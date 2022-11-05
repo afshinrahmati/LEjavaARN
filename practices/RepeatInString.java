@@ -15,14 +15,13 @@ class RepeatInString{
             System.out.println(text + "==>" + secondString);
 
         if(text.equals(secondString)){
-            System.out.println(1);
-            p++;
+            ++p;
         }
     if(spilt >firstString.length()){
         break;
     }
     }
     
-    System.out.println(p);
+    System.out.println(p-1);
     }
 }
